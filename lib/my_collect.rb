@@ -9,7 +9,6 @@ def my_collect(collection)
   while i < collection.length do
     yield
 
-    i = i + 1
   end
 
 
