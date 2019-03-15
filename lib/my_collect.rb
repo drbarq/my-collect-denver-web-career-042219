@@ -16,6 +16,6 @@ end
 ## languages = ['ruby', 'javascript', 'python', 'objective-c']
 =begin
 my_collect(languages) do |language|
- puts collection[i]
+ language.upcase
 end
 =end
