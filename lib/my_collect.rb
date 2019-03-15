@@ -1,5 +1,8 @@
 
 
+my_collect_var = Array.new
+
+
 def my_collect(collection) {
   i = 0
 
@@ -10,3 +13,4 @@ def my_collect(collection) {
   return my_collect_var
   }
 end
+
