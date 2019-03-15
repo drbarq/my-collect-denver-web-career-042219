@@ -9,7 +9,7 @@ def my_collect(collection)
     my_collection << collection[i]
     i = i + 1
   end
-  return my_collection
+  return my_array
 end
 
 
