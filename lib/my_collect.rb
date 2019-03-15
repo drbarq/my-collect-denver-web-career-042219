@@ -9,7 +9,7 @@ def my_collect(collection)
     my_array << collection[i]
     i = i + 1
   end
-  return
+  return my_array
 end
 
 
@@ -19,6 +19,6 @@ end
 my_collect(languages)
 
 my_collect(languages) do |language|
-  puts [i]
+  puts language
 end
 =end
