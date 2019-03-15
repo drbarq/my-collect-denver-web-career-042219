@@ -9,5 +9,5 @@ def my_collect(collection)
     my_collection << collection[i]
     i = i + 1
   end
-  return collection
+  return my_collection
 end
