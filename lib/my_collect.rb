@@ -3,7 +3,7 @@
 my_collect_var = Array.new
 
 
-def my_collect(collection) 
+def my_collect(collection)
   i = 0
   my_collect_var
   while i < collection.length do
