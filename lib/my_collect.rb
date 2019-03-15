@@ -13,4 +13,3 @@ def my_collect(collection) {
   return my_collect_var
   }
 end
-
