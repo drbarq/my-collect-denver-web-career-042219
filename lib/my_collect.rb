@@ -11,3 +11,6 @@ def my_collect(collection)
   end
   return my_collection
 end
+
+
+## languages = ['ruby', 'javascript', 'python', 'objective-c']
