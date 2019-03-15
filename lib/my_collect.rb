@@ -19,6 +19,6 @@ end
 my_collect(languages)
 
 my_collect(languages) do |language|
-  puts "hello"
+  language
 end
 =end
