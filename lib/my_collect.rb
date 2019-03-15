@@ -6,10 +6,10 @@ def my_collect(collection)
   my_collection = []
   while i < collection.length do
     yield
-  ##  my_collection << collection[i]
+    my_collection << collection[i]
     i = i + 1
   end
-##  return my_collection
+  return my_collection
 end
 
 
