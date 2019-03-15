@@ -6,7 +6,7 @@ def my_collect(collection)
   my_array = []
   while i < collection.length do
     yield(collection)
-    my_array << collection[i]
+    puts collection[i]
     i = i + 1
   end
   return my_array
