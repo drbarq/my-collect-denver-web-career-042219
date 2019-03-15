@@ -14,11 +14,3 @@ end
 
 
 ## languages = ['ruby', 'javascript', 'python', 'objective-c']
-
-=begin
-my_collect(languages)
-
-my_collect(languages) do |language|
-    language
-end
-=end
