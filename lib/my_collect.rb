@@ -10,7 +10,7 @@ def my_collect(collection)
     yield
 
     i = i + 1
-  end
+  end 
   return my_collect_var
-end
+
 end
