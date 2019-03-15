@@ -8,6 +8,6 @@ def my_collect(collection)
     yield
 
     i = i + 1
-  end 
+  end
 
 end
