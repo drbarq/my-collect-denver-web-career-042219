@@ -20,6 +20,6 @@ end
 my_collect(languages)
 
 my_collect(languages) do |language|
-  puts language.upcase
+  puts language
 end
 =end
