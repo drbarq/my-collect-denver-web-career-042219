@@ -4,7 +4,6 @@
 def my_collect(collection)
   i = 0
   my_array = []
-
   while i < collection.length do
     yield(collection)
     my_array << collection[i]
@@ -20,6 +19,6 @@ end
 my_collect(languages)
 
 my_collect(languages) do |language|
-  puts language[i]
+  puts language
 end
 =end
