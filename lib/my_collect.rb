@@ -9,7 +9,7 @@ def my_collect(collection)
      my_array << yield(collection[i])
      i = i + 1
   end
-  
+
 end
 
 
