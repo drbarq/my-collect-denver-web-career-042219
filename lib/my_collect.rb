@@ -14,3 +14,10 @@ end
 
 
 ## languages = ['ruby', 'javascript', 'python', 'objective-c']
+
+
+my_collect(languages)
+
+my_collect(languages) do |language|
+  puts "hello"
+end
